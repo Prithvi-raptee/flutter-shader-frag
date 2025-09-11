@@ -1,0 +1,30 @@
+name: frag
+description: "A Flutter app to display a custom shader animation."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add this line for shader support
+  flutter_shaders: ^0.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add these lines to define the shaders asset directory
+  shaders:
+    - assets/shaders/animation.frag
+    - assets/shaders/light.frag
+    - assets/shaders/light_rays.frag
+    - assets/shaders/lighter.frag
+    - assets/shaders/rays.frag
