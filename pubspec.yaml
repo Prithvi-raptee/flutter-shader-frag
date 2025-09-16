@@ -10,7 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   # Add this line for shader support
-  flutter_shaders: ^0.1.2
+  flutter_shaders: ^0.1.0  # The core shader package
+  provider: ^6.1.1         # For clean state management
 
 
 dev_dependencies:
@@ -28,3 +29,5 @@ flutter:
     - assets/shaders/light_rays.frag
     - assets/shaders/lighter.frag
     - assets/shaders/rays.frag
+    - assets/shaders/rayray.frag
+    - assets/shaders/plasma.frag
